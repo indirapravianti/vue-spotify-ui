@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-6 gap-0">
+  <div>
     <div class="w-56">
       <div class=" bg-black h-full flex-none"> <!-- sidenav -->
         <div class="p-3">
@@ -38,9 +38,10 @@
       </div>
     </div>
 
-    <div class="col-start-2 col-end-7 bg-blue">
+    <!-- <div class="col-start-2 col-end-7 bg-blue"> -->
       <div class="w-full h-full relative">
         <div class="w-full sticky top-0 py-3 px-10 flex items-center justify-between">
+
           <div class="flex items-center">
             <button class="rounded-full bg-black w-8 h-8 text-white mr-4">
               <i class="material-icons text-3xl">keyboard_arrow_left</i>
@@ -49,18 +50,20 @@
               <i class="material-icons text-3xl">keyboard_arrow_right</i>
             </button>
           </div>
-          <div class="flex items-center">
-            <button class="border-white border-opacity-100 rounded-full py-3 px-6">
+
+          <div>
+            <!-- <button class="border-white border-opacity-100 rounded-full py-3 px-6">
               <p class="text-white uppercase">upgrade</p>
-            </button>
+            </button> -->
             <button class="border-white border-opacity-100 rounded-full py-3 px-6 flex items-center">
               <img src="/img/myPic.jpg" alt="my profile picture" class="rounded-full h-8 w-8 mr-2">
               <p class="text-white font-semibold text-sm">indirapravianti</p>
             </button>
           </div>
+
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 </template>
 
